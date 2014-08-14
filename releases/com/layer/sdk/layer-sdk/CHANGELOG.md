@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+## 0.7.10
+ * LayerClient takes a UUID instead of a String for its Layer App ID
+ * Listeners moved to new `com.layer.sdk.listeners` package
+ * Services and Receivers moved to new `com.layer.sdk.services` package
+ * LayerChange and LayerChangeEvent moved to new `com.layer.sdk.changes` package
+
 ## 0.7.9
  * Fixed bug in synchronizing a conversation from scratch which had a member deleted.
  * Fixed proguard error on Session.
