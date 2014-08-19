@@ -1,6 +1,10 @@
 Change Log
 ==========
 
+## 0.7.12
+ * LayerClient.markMessageAsRead()
+ * Message.getRecipientStatus() map acts like Message.getRecipientStatus(userId)
+
 ## 0.7.11
  * Message.sentAt and Message.receivedAt populated.
  * Recipient status map contains known recipients, conversation participants, and sender.
