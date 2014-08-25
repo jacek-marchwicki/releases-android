@@ -1,6 +1,9 @@
 Change Log
 ==========
 
+## 0.7.13
+ * Removed LayerNotificationCallback; added new Intent broadcast with `com.layer.sdk.PUSH` action.
+
 ## 0.7.12
  * LayerClient.markMessageAsRead()
  * Message.getRecipientStatus() map acts like Message.getRecipientStatus(userId)
