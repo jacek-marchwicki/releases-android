@@ -1,6 +1,11 @@
 Change Log
 ==========
 
+## 0.7.14
+ * Reduced synchronization time
+ * Send PUSH broadcasts from both GCM and Layer connection
+ * Corrected intermittent NullPointerException on launch
+
 ## 0.7.13
  * Removed LayerNotificationCallback; added new Intent broadcast with `com.layer.sdk.PUSH` action.
 
