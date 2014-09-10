@@ -1,6 +1,10 @@
 Change Log
 ==========
 
+## 0.7.15
+ * Deleting conversations and messages synchronizes faster.
+ * Fixed error on synchronizing conversations from scratch that include deleted messages.
+
 ## 0.7.14
  * Reduced synchronization time
  * Send PUSH broadcasts from both GCM and Layer connection
