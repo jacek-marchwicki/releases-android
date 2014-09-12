@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+## 0.7.16
+ * Created LayerException in place of error alerts with `int code, String message`
+ * LayerSyncListener has onSyncError for reporting LayerExceptions encountered during synchronization
+ * Corrected Conversation `lastMessage` bug
+ * Corrected alerting 'SESSION_NOT_FOUND' as an authentication error
+
 ## 0.7.15
  * Deleting conversations and messages synchronizes faster.
  * Fixed error on synchronizing conversations from scratch that include deleted messages.
