@@ -20,8 +20,8 @@ The recommended path for installation on Android is via [Maven](http://maven.apa
 apply plugin: 'maven'
 
 dependencies {
-    compile 'com.layer.sdk:layer-sdk:0.7.10'
-    compile 'org.slf4j:slf4j-api:1.7.7'
+    compile 'com.layer.sdk:layer-sdk:0.7.10+'
+    compile 'org.slf4j:slf4j-api:1.7.7+'
 }
 ```
 
@@ -39,8 +39,8 @@ Navigate to the JAR file in Android Studio navigatior, right click and select "A
 apply plugin: 'maven'
 
 dependencies {
-    compile 'com.layer.sdk:layer-sdk:0.7.10'
-    compile 'org.slf4j:slf4j-api:1.7.7'
+    compile 'com.layer.sdk:layer-sdk:0.7.10+'
+    compile 'org.slf4j:slf4j-api:1.7.7+'
 }
 ```
 Once you have successfully built your project, proceed to the [Verifying SDK Configuration](#verifying-sdk-configuration) section below.
