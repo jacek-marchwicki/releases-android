@@ -39,8 +39,11 @@ Navigate to the JAR file in Android Studio navigatior, right click and select "A
 apply plugin: 'maven'
 
 dependencies {
-    compile 'com.layer.sdk:layer-sdk:0.7.10+'
-    compile 'org.slf4j:slf4j-api:1.7.7+'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:20.+'
+    compile 'com.android.support:support-annotations:20.+'
+    compile 'com.google.android.gms:play-services:5.+'
+    compile 'org.slf4j:slf4j-api:1.7.7'
 }
 ```
 Once you have successfully built your project, proceed to the [Verifying SDK Configuration](#verifying-sdk-configuration) section below.
