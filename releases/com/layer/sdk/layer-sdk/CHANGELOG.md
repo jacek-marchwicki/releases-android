@@ -1,20 +1,23 @@
 Change Log
 ==========
 
+## 0.7.17
+ * Fixed re-adding participant to conversation not alerting participant changes.
+
 ## 0.7.16
- * Created LayerException in place of error alerts with `int code, String message`
- * LayerSyncListener has onSyncError for reporting LayerExceptions encountered during synchronization
- * Corrected Conversation `lastMessage` bug
- * Corrected alerting 'SESSION_NOT_FOUND' as an authentication error
+ * Created LayerException in place of error alerts with `int code, String message`.
+ * LayerSyncListener has onSyncError for reporting LayerExceptions encountered during synchronization.
+ * Corrected Conversation `lastMessage` bug.
+ * Corrected alerting 'SESSION_NOT_FOUND' as an authentication error.
 
 ## 0.7.15
  * Deleting conversations and messages synchronizes faster.
  * Fixed error on synchronizing conversations from scratch that include deleted messages.
 
 ## 0.7.14
- * Reduced synchronization time
- * Send PUSH broadcasts from both GCM and Layer connection
- * Corrected intermittent NullPointerException on launch
+ * Reduced synchronization time.
+ * Send PUSH broadcasts from both GCM and Layer connection.
+ * Corrected intermittent NullPointerException on launch.
 
 ## 0.7.13
  * Removed LayerNotificationCallback; added new Intent broadcast with `com.layer.sdk.PUSH` action.
