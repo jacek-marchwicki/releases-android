@@ -1,6 +1,9 @@
 Change Log
 ==========
 
+## 0.7.18
+ * Close Layer push channel (not GCM push) after a few seconds of being in the background; resume in foreground.
+
 ## 0.7.17
  * Fixed re-adding participant to conversation not alerting participant changes.
 
