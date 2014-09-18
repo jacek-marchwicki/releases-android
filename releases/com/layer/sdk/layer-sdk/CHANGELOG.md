@@ -1,6 +1,10 @@
 Change Log
 ==========
 
+## 0.7.19
+ * Fixed intermittent crash when resuming closed app.
+ * Fixed intermittent crash when synchronizing with poor connectivity.
+
 ## 0.7.18
  * Close Layer push channel (not GCM push) after a few seconds of being in the background; resume in foreground.
 
