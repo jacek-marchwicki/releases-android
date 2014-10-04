@@ -1,6 +1,11 @@
 Change Log
 ==========
 
+## 0.8.1
+ * Fixed intermittent SQLiteConstraintException
+ * Fixed intermittent NPE in Transport line 297
+ * Fixed intermittent NPE in Transport line 437
+
 ## 0.8.0
  * Updated endpoints to production
 
