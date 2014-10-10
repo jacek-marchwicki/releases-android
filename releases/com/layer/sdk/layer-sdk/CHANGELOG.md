@@ -1,6 +1,14 @@
 Change Log
 ==========
 
+## 0.8.2
+ * Added DeletionMode to deleteMessage() and deleteConversation()
+ * Improved sync performance
+ * Improved error message for TaskMaster 3->2 error
+ * Fixed marking a message delivered and read after getting re-added to a conversation
+ * Fixed intermittent IllegalArgumentException in Persist line 288
+ * Fixed nested-cursor memory errors
+
 ## 0.8.1
  * Fixed intermittent SQLiteConstraintException
  * Fixed intermittent NPE in Transport line 297
