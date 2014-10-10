@@ -17,7 +17,11 @@ The Layer Android SDK can be installed directly into your application by importi
 The recommended path for installation on Android is via [Maven](http://maven.apache.org/). Maven is a software project management and comprehension tool. It is capable of managing a project's build configuration and dependencies from a central location. You can install the Layer SDK into your project via Maven by adding the following code to your project's `build.gradle` file:
 
 ```groovy
-apply plugin: 'maven'
+repositories {
+    mavenCentral()
+    maven { url 'https://github.com/layerhq/releases-android/raw/master/releases/' }
+}
+
 
 dependencies {
     compile 'com.layer.sdk:layer-sdk:0.7.10+'
@@ -36,8 +40,6 @@ Navigate to the JAR file in Android Studio navigatior, right click and select "A
 2. Navigate to your build.gradle file and ensure that you include the following:
 
 ```groovy
-apply plugin: 'maven'
-
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:20.+'
